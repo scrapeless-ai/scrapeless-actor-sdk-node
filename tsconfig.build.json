@@ -1,0 +1,43 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@test/*": ["./test/*"],
+      "@src/*": ["./src/*"]
+    },
+    "declaration": true,
+    "declarationMap": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "importsNotUsedAsValues": "remove",
+    "incremental": true,
+    "target": "ES2020",
+    "lib": ["ESNext", "DOM", "ES2020"],
+    "newLine": "lf",
+    "noEmitHelpers": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "pretty": true,
+    "removeComments": false,
+    "resolveJsonModule": false,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "useDefineForClassFields": true,
+    "outDir": "./dist"
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.js"],
+  "exclude": ["node_modules", "dist", "**/*.spec.ts"]
+}
