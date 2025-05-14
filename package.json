@@ -1,6 +1,6 @@
 {
   "name": "scrapeless-actor-sdk-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "scrapeless actor sdk for nodejs",
   "main": "dist/index.mjs",
   "exports": {
