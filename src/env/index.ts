@@ -16,7 +16,7 @@ export enum ActorEnv {
 }
 
 export function getEnv(key: keyof typeof ActorEnv) {
-  const env = process.env[key];
+  const env = process.env[ActorEnv[key]];
   if (env === undefined) {
     // TODO - add a logger
     throw new Error(`Environment variable ${key} is not defined`);
