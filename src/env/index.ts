@@ -13,6 +13,7 @@ export enum ActorEnv {
   EnvQueueId = "SCRAPELESS_QUEUE_ID",
   EnvScrapelessApiHost = "SCRAPELESS_API_HOST",
   EnvScrapelessCaptchaHost = "SCRAPELESS_CAPTCHA_HOST",
+  EnvScrapelessBrowserHost = "SCRAPELESS_SCRAPING_BROWSER_HOST",
 }
 
 export function getEnv(key: keyof typeof ActorEnv) {

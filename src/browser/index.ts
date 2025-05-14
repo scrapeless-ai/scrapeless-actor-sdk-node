@@ -4,7 +4,7 @@ import type { ICreateBrowser, ScrapelessBrowser } from "@/types";
 
 export class Browser implements ScrapelessBrowser {
   create(data: ICreateBrowser) {
-    const baseURL = "wss://browser.scrapeless.com/browser";
+    const baseURL = getEnv("EnvScrapelessBrowserHost");
     const token = getEnv("EnvToken");
     const params: {
       token: string;
