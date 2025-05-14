@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.scrapeless/scrapeless-ai/scrapeless-actor-sdk-node/compare/v0.0.5...v0.0.6) (2025-05-14)
+
+
+### Bug Fixes
+
+* browser api host protocol ([9d9f7fd](https://github.scrapeless/scrapeless-ai/scrapeless-actor-sdk-node/commit/9d9f7fd582fe821b260256606e4492a77229aa9f))
+
 ### [0.0.5](https://github.scrapeless/scrapeless-ai/scrapeless-actor-sdk-node/compare/v0.0.4...v0.0.5) (2025-05-14)
 
 
