@@ -29,7 +29,7 @@ export class Browser implements ScrapelessBrowser {
     const search = new URLSearchParams(params);
 
     return {
-      devtoolsUrl: `wss://${baseURL}?${search.toString()}`,
+      devtoolsUrl: `ws://${baseURL}/browser?${search.toString()}`,
     };
   }
 }
