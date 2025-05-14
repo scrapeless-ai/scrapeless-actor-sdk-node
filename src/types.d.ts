@@ -385,4 +385,5 @@ export class ScrapelessActor {
   browser: ScrapelessBrowser;
   proxy: ScrapelessProxy;
   runner: ScrapelessRunner;
+  input: () => any;
 }

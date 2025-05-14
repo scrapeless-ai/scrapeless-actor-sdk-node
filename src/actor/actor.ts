@@ -3,6 +3,7 @@ import { Captcha } from "@/captcha";
 import { Browser } from "@/browser";
 import { Proxy } from "@/proxy";
 import { Runner } from "@/runner";
+import { getEnv } from "@/env";
 
 import type {
   ScrapelessActor,
@@ -26,5 +27,9 @@ export default class Actor implements ScrapelessActor {
     this.browser = new Browser();
     this.proxy = new Proxy();
     this.runner = new Runner();
+  }
+
+  input() {
+    return getEnv("EnvInput");
   }
 }
