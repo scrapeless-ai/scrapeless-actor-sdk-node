@@ -46,6 +46,6 @@
   },
   "homepage": "https://scrapeless.com",
   "dependencies": {
-    "form-data": "^4.0.2"
+    "formdata-node": "^6.0.3"
   }
 }

@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import FormData from "form-data";
+import { FormData } from "formdata-node";
 import * as objectApi from "@/http-client/api/object";
 import { getEnv } from "@/env";
 
