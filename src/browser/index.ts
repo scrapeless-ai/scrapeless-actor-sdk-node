@@ -11,6 +11,8 @@ export class Browser implements ScrapelessBrowser {
       session_ttl?: string;
       proxy_country?: string;
       fingerprint?: string;
+      proxy_url?: string;
+      session_recording?: string;
     } = {
       token,
     };
@@ -26,6 +28,15 @@ export class Browser implements ScrapelessBrowser {
     if (data.fingerprint) {
       params.fingerprint = JSON.stringify(data.fingerprint);
     }
+
+    if (data.proxy_url) {
+      params.proxy_url = data.proxy_url;
+    }
+
+    if (data.session_recording) {
+      params.session_recording = String(data.session_recording);
+    }
+
     const search = new URLSearchParams(params);
 
     return {

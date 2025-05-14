@@ -283,6 +283,8 @@ export interface IGetCaptchaResult {
 export interface ICreateBrowser {
   session_ttl?: number;
   proxy_country?: string;
+  proxy_url?: string;
+  session_recording?: boolean;
   fingerprint?: object;
 }
 
